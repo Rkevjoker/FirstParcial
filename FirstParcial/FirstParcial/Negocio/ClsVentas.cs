@@ -12,6 +12,7 @@ namespace FirstParcial.Negocio
         public string Cobro(Ventas vent)
         {
 
+
             return "";
         }
     }

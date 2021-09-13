@@ -11,7 +11,7 @@ namespace FirstParcial.Negocio
     {
         string user = "Ronald";
         Double clave = 123;
-        int y = 1;
+        public int y = 1;
 
         Usuario Cons = new Usuario();
 
