@@ -12,8 +12,8 @@ namespace FirstParcial
     {
         static void Main(string[] args)
         {
-            String nombre = Console.ReadLine();
-            Double contra = Convert.ToDouble(Console.ReadLine());
+            string nombre = Console.ReadLine();
+            double contra = Convert.ToDouble(Console.ReadLine());
 
             Usuario usuario = new Usuario();
             Usuario Cons = new Usuario(nombre, contra);
