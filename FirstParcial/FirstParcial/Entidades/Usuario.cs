@@ -24,9 +24,9 @@ namespace FirstParcial.Entidades
         public string Nombre { get => nombre; set => nombre = value; }
         public double Contra { get => contra; set => contra = value; }
 
-        public override string ToString()
+        public override String ToString()
         {
-            return "su nombre de usuario es: " + nombre + " su clave es: " + contra ;
+            return "su nombre de usuario es: " + Nombre + " su clave es: " + Contra ;
         }
     }
 }

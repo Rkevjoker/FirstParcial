@@ -12,19 +12,16 @@ namespace FirstParcial
     {
         static void Main(string[] args)
         {
-            string nombre = Console.ReadLine();
-            double contra = Convert.ToDouble(Console.ReadLine());
-
             Usuario usuario = new Usuario();
-            Usuario Cons = new Usuario(nombre, contra);
+           
             ClsUsuario clsUsuario = new ClsUsuario();
 
             Console.WriteLine("digite el nombre de usuario");
-            Cons.Nombre = Convert.ToString(Console.ReadLine());
+            string nombre = Convert.ToString(Console.ReadLine());
 
             Console.WriteLine("Escriba su clave de accesos");
-            Cons.Contra = Convert.ToDouble(Console.ReadLine());
-
+            double contra = Convert.ToDouble(Console.ReadLine());
+            Usuario Cons = new Usuario(nombre, contra);
             Console.WriteLine(clsUsuario.Acceso(Cons));
 
             if (clsUsuario.y == 1)
@@ -43,10 +40,12 @@ namespace FirstParcial
                     Console.WriteLine("ingrese la cantidad del producto");
                     int cantidad = Convert.ToInt32(Console.ReadLine());
 
+                    Ventas vent = new Ventas(identificador_producto, nombre_producto, descripcion, precio, cantidad);
+
                     ClsVentas cls = new ClsVentas();
 
                     Ventas ventas = new Ventas();
-                    Ventas vent = new Ventas(identificador_producto, nombre_producto, descripcion, precio, cantidad);
+                    
                     Console.WriteLine(cls.Cobro(vent));
 
                     Console.WriteLine(usuario.ToString());
