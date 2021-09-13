@@ -1,0 +1,7 @@
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\bin\Debug\FirstParcial.exe.config
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\bin\Debug\FirstParcial.exe
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\bin\Debug\FirstParcial.pdb
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\obj\Debug\FirstParcial.csproj.AssemblyReference.cache
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\obj\Debug\FirstParcial.csproj.CoreCompileInputs.cache
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\obj\Debug\FirstParcial.exe
+C:\Users\Rkev\OneDrive\Escritorio\POO\FirstParcial\FirstParcial\FirstParcial\obj\Debug\FirstParcial.pdb

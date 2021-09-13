@@ -32,5 +32,14 @@ namespace FirstParcial.Entidades
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public double Precio { get => precio; set => precio = value; }
         public int Cantidad { get => cantidad; set => cantidad = value; }
+
+        public override string ToString()
+        {
+            return "el id de su producto es " + identificador_producto +
+                "\n el nombre de su producto es " + nombre_producto +
+                "\n la descripcion de su producto es" + descripcion +
+                "\n el precio del prudcto es" + precio +
+                "\n la cantidad de producto es " + cantidad;
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace FirstParcial
             String nombre = Console.ReadLine();
             Double contra = Convert.ToDouble(Console.ReadLine());
 
+            Usuario usuario = new Usuario();
             Usuario Cons = new Usuario(nombre, contra);
             ClsUsuario clsUsuario = new ClsUsuario();
 
@@ -37,15 +38,20 @@ namespace FirstParcial
                     string nombre_producto = Convert.ToString(Console.ReadLine());
                     Console.WriteLine("ingrese la descripcion del producto");
                     string descripcion = Convert.ToString(Console.ReadLine());
-                    Console.WriteLine("ingrese la descripcion del producto");
+                    Console.WriteLine("ingrese la precio del producto");
                     double precio = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("ingrese la cantidad del producto");
                     int cantidad = Convert.ToInt32(Console.ReadLine());
 
                     ClsVentas cls = new ClsVentas();
 
+                    Ventas ventas = new Ventas();
                     Ventas vent = new Ventas(identificador_producto, nombre_producto, descripcion, precio, cantidad);
                     Console.WriteLine(cls.Cobro(vent));
+
+                    Console.WriteLine(usuario.ToString());
+                    Console.WriteLine(ventas.ToString());
+                    Console.ReadLine();
 
                 }
             }
