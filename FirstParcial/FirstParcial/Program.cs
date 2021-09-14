@@ -44,12 +44,10 @@ namespace FirstParcial
 
                     ClsVentas cls = new ClsVentas();
 
-                    Ventas ventas = new Ventas();
-                    
                     Console.WriteLine(cls.Cobro(vent));
 
-                    Console.WriteLine(usuario.ToString());
-                    Console.WriteLine(ventas.ToString());
+                    Console.WriteLine(cls.ToString());
+                    Console.WriteLine(vent.ToString());
                     Console.ReadLine();
 
                 }
